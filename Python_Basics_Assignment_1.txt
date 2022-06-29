@@ -1,0 +1,56 @@
+Q.No.1
+Ans.1:
+	Values    : 'hello', -87.8,
+	Expression: *, -, /, +
+
+Q.no.2
+Ans.1:  String: It is made up of characters, numerical and special character but there are some 
+	exception as well.
+	
+	Variable: It is simply a Box in which we can store some valuev like Int -  10,11e etc
+	float-1.00,2.53 etc,and String="iNeuron".
+
+Q.No.3
+Ans.3:  Some of Data types:
+	1. INT: It simply that data type in which we used to Perform Numerical Operations on 
+	Integers.
+	
+	2. Float: It is that data type in which we used to perform operations on Decimal Numbers.
+	
+	3. String: It is simply used to store set of character or a character.1
+Q.No.4
+Ans.4:  Some Expressions: 
+	1. x+y
+	2. (a*b)/c
+	3. value==True:
+
+Q.No.5
+Ans.5: The Basic Difference between a  Expression and a Assignment Statement is that a Expression 
+returns a Result while a Statement doesn't.
+
+Q.No.6
+And.6:  bacon value still remains the same
+	i.e. bacon=22
+
+Q.No.7
+Ans.7:  spamspamspam
+	spamspamspam
+
+Q.No.8
+And.8:  Because then you will have difficulty while doing Programming like
+	100(A)+100(B)
+	100(A)=10
+	Let's say A 100 is a variable and if you want to add another 100 then you will add
+	100 directly.
+	But there is no Problem with eggs 
+
+Q.No.9
+Ans.9:  Functions:
+	1. int()  :- It is used to get the Integer Value of a Variable.
+	2. float():- It is used to get the Float Value of a Variable.
+	3.str()   :- It is used to get the String Value of a Variable.
+		
+Q.No.10
+Ans.10: 99 is a n Ineger and it cannot be  concatenated with String, for this error to resolve 
+	we can typecast the 99 into String
+ 
