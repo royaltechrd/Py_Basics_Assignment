@@ -1,0 +1,119 @@
+Q.No.1
+Ans.1:  Boolean Data Type has only two values:-
+	A) TRUE
+	B) TRUE
+	
+Q.no.2
+Ans.2:  Three type of Boolean data type operator are:-
+	a)and		b) or		c)not
+
+Q.No.3
+Ans.3:  Truth Table for "and" operator :-
+	
+	A		Operator	B	Output
+	TRUE		and		TRUE	TRUE
+	TRUE		and		FALSE	FALSE
+	FALSE		and		TRUE	FALSE
+	FALSE		and		FALSE	FALSE
+
+	Truth Table for "or" operator :-
+	
+	A		Operator	B	Output
+	TRUE		or		TRUE	TRUE
+	TRUE		or		FALSE	TRUE
+	FALSE		or		TRUE	TRUE
+	FALSE		or		FALSE	FALSE
+	
+	Truth Table for "not" operator :-
+	
+	A		Operator	Output
+	TRUE		not		FALSE	
+	FALSE		not		TRUE	
+
+
+Q.No.44. What are the values of the following expressions?
+Ans.4:  (5 > 4) and (3 == 5) 		     -Value = False
+	not (5 > 4)	     		     -Value = False
+	(5 > 4) or (3 == 5)    	 	     -Value = True
+	not ((5 > 4) or (3 == 5))	     -Value = False
+	(True and True) and (True == False)  -Value = False
+	(not False) or (not True)	     -Value = True
+
+
+Q.No.5
+Ans.5: Comparison Operator are given Below:
+	a) Less than ">"		b) Greater than "<"		
+	c) Equal to "=="		d) Greater than equal to ">="		
+	e) Less than equal to "<="	f) Not Equal to "!=" 
+
+Q.No.6
+And.6:  The main difference between the equal to operator and assigment operator is that 
+	equal to is having double = i.e."==" while in case of assignment operator it is simply
+	"=".
+	For example:-Lets say you have a variable x
+	And you want to put String "Shrangarika" in x, then you will use assignment operator
+	x="Shrangarika"
+	while equal to is used to compare like
+	if x="Shrangarika":
+		print("He is my ex")
+
+
+Q.No.7
+Ans.7: I Block :-
+
+	if spam==10:
+	print("eggs")
+
+	II Block :-
+	
+	if spam>5:
+	print("bacon")
+	else:
+	print("ham")
+
+	III Block :-
+	
+	print("spam")
+
+Q.No.8
+And.8:  spam=(input("Please Enter anything"))
+	if int(spam)==1:
+       	  print("hello")
+	elif int(spam)==2:
+	  print("howdy")
+	else:
+	  print("Good Morning")
+
+
+
+Q.No.9
+Ans.9:  Press  Ctrl+F2 to Stop the Program
+
+		
+Q.No.10
+Ans.10: Break keep the pointer out of the loop while continue used to go to at the start
+	of the loop without executing the code followed by continue.
+
+Q.No.11
+Ans.11:	In range(10), It is giving a set of number from 0 to 9 i.e. except the Upper Bound..
+	In range(0,10), it is giving the set of number from lower bound ie. 0 to 
+	Upper Bound-1 i.e. Lefting out the Upper Bound Number.
+	In range(0,10,1) It is giving set of numbers that go from lower bound to upper bound 
+	by lefting out the upper bound and by adding each number by 1
+	
+
+Q.No.12
+Ans.12: Via For Loop  
+	for i in range(1,11):
+	   print(i)
+
+	Via While Loop:
+	i=1
+	while i<11:
+	 print(i)
+	 i+=1
+
+Q.No.13 
+Ans.13: Like this we can call the method:-
+	module.methodname()
+	spam.bacon() 
