@@ -1,0 +1,59 @@
+Q.No.1
+Ans.1:  Functions are advantageous because you need to write the block of code in the definitions
+	of functions only once and you can use it again and again with no need o write it again 
+	and again.
+	
+Q.no.2
+Ans.2:  The Code in a Function runs only when it is called in the program.
+
+Q.No.3
+Ans.3:  Statement: def function_name :
+		       return
+
+Q.No.4. 
+Ans.4:  Function is a name given to a Block of code which we want to use later in the program.
+	Function Call is used in the program where we want to use that block of code.
+
+
+Q.No.5
+Ans.5:  There is only one Global in the theoritical way but there is Built in Scope as well.
+	Local scope is also one and apart from this nonlocal is somewhat similar.
+
+Q.No.6
+And.6:  Those variable got Destroyed as soon as the the Pointer came out of the Function
+
+
+Q.No.7
+Ans.7:  Return is used to returned some Values to the Compiler. Yes, it is Possible to return
+	value in Expression.
+
+Q.No.8
+And.8:  Return value of a call to that function is None.
+
+
+Q.No.9
+Ans.9:  You can make a Function Variable by writing 'global' before it.
+
+		
+Q.No.10
+Ans.10: NoneType is the Data type of None
+	
+
+Q.No.11
+Ans.11: No idea.
+	But it will do whatever the code written inside this Function	
+	
+
+Q.No.12
+Ans.12: To call the bacon feature of the module Spam :- 
+	We write the following Call :-
+	spam.bacon()
+
+Q.No.13 
+Ans.13: You can use try except clauses for the smooth running of your program by handling 
+	those errors.
+
+
+Q.No.14
+Ans.14: try Clause help you in testing the Code.
+	except Clause help you to handle the Errors in your Code.	
