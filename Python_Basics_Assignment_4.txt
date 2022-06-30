@@ -1,0 +1,78 @@
+Q.No.1
+Ans.1:  [] is known as Square. But in Python we recognise it "[]" as List.
+	
+Q.no.2
+Ans.2:  spam = [2,4,6,8,10 ]
+	spam.insert(2,"hello")
+	Now spam=[2,4,"hello",6,8,10]
+
+Q.No.3
+Ans.3:  Value of spam[int(int(3*2)/11)] = spam[3]="d"
+
+Q.No.4. 
+Ans.4:  Value of spam[-1]="d"
+
+Q.No.5
+Ans.5:  spam[:2] will give ["a","b"]
+
+Q.No.6
+And.6:  bacon.index("cat")=1
+
+
+Q.No.7
+Ans.7:  bacon=[3.14,"cat",11,"cat",True,99]
+
+Q.No.8
+And.8:  bacon=[3.14,11,"cat",True]
+
+
+Q.No.9
+Ans.9:  To concatenate a List , you just need to use + Operator
+	TO Replicate a List , You just need to use * Operator
+
+
+Q.No.10
+Ans.10: Method append() add an element at the last index of the List.
+	While method insert() used to add an element at the specified position in the List.
+	
+
+Q.No.11
+Ans.11: These are the Two methods:-
+	a)remove() 				b) pop() 
+	Apart from this you can also del list_var_name[ index ]
+
+
+Q.No.12
+Ans.12: List Value and String are Identical values because both are sequences and both 
+
+
+Q.No.13 
+Ans.13: Tuple: It is recognised by small Brackets ().
+	       One of the main characteristics of tuple is that you can not access it's element
+	       via their Positions.
+	Lists: It is recognised by [] brackets.
+	       List can be accessed by index of element in the List.
+	         
+Q.No.14
+Ans.14: Lets say a Tuple tp
+	TP=(42)
+
+Q.No.15
+Ans.15: You can get List Value tuple form by Type casting:
+	tuple(list_value)
+	And Viceversa for the other case around:-
+	list(tuple_value)
+
+
+Q.No.16
+Ans.16: Variable that contain list values can be int, float, String and much more.
+
+
+
+Q.No.17
+Ans.17: copy() and deepcopy() are two features in copy module.
+	They are written separately in the copy module.
+
+
+
+
