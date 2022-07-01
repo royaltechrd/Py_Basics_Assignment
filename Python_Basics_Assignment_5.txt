@@ -1,0 +1,43 @@
+Q.No.1
+Ans.1:  Lets say dt is a Dictionary
+	EMpty Dictionary Code will be Like:-
+	dt={}
+	
+Q.no.2
+Ans.2:  Value of Dictionary = dict_values[42]
+
+
+Q.No.3
+Ans.3:  The most basic distinction between a List and a Dictionary is that List contains 
+	single values while a dictionary contain key value as a pair.
+
+
+Q.No.4. 
+Ans.4:  It will show an Error : Module Error: Foo not Found
+
+Q.No.5
+Ans.5:  Expressions cat in spam is an individual entity in the Dictionary while "cat" in 
+	spam.keys() is an element in the List
+
+Q.No.6
+And.6:  Expressions cat in spam is an individual entity in the Dictionary while "cat" in 
+	spam.  () is an element in the List
+
+Q.No.7
+Ans.7:  spam["color"]="black" if "color" not in spam  
+
+Q.No.8
+And.8:  tse_dict= {"prashant":{"college":"Jk","School":"GSA",
+			"tech":{"Lang":"Python","DBA":"MySQL"},},"company":"TCS"}
+
+	
+	for i in tse_dict:
+    	print(i)
+    	if type(tse_dict[i]) == dict:
+        	for subset in tse_dict[i]:
+            	print(subset, ":", tse_dict[i][subset])
+
+	    else:
+        	print(tse_dict[i])
+
+
