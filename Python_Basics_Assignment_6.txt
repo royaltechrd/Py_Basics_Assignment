@@ -1,0 +1,57 @@
+Q.No.1
+Ans.1:  There are some  special characters like \,",'. which are illegal to use in a string.
+	To use them we use Escape characters. These are character 
+	that are followed by backslash \ and then the character that you want to use.
+	eg.- For Backslash \\, For Single Quote \' etc
+	
+
+Q.no.2
+Ans.2:  Escape character n is used to give a New Line in the String
+	Escape character t is used to give a tab space in the String.
+
+Q.No.3
+Ans.3:  By using Escape Character you can include Backslash Character.
+
+Q.No.4
+Ans.4:  Because String started by Double Quote and it ended by Double Quotes. But in case,
+	if any other Double quote occur in between those DOuble Quotes then there will be 
+	some Problem.
+
+Q.No.5
+Ans.5:  If i want to print String of Newlines without the use of n then i will use print()
+	n number of times for the n number of newline String.
+
+Q.No.6
+And.6:  Value of 'Hello, world!'[1]   :- e
+	Value of 'Hello, world!'[0:5] :- Hello
+	Value of 'Hello, world!'[:5]  :- Hello
+ 	Value of 'Hello, world!'[3:]  :- lo, world!
+
+
+Q.No.7
+Ans.7:  Value of 'Hello'.upper()	   :- HELLO
+	Value of 'Hello'.upper().isupper() :- FALSE
+	Value of 'Hello'.upper().lower()   :- hello
+
+Q.No.8
+And.8:  Value of 'Remember, remember, the fifth of July.'.split():-
+	[Remember,, remember,, the, fifth, of, July.']
+ 
+       	Value of '-'.join('There can only one.'.split()):-
+	[There_can_only_one.']
+
+
+Q.No.9
+Ans.9:  For Left   Justifying : ljust (integer,character which you want to replicate )
+	For Right  Justifying : rjust (integer,character which you want to replicate )
+	For Center Justifying : center (integer,character which you want to replicate )
+		
+Q.No.10
+Ans.10: Use strip() method, it will remove the white spaces from the start as well from 
+	the end.
+	But in case, you want to remove extra spaces from the string and want to replace 
+	with single spaces
+	Then you should use this particular piece of code 
+        (" ".(String.split())).strip()
+
+ 
