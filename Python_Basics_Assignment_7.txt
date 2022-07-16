@@ -1,0 +1,124 @@
+Q.No.1
+Ans.1:  compile() method is used to compile the regular expression into Pattern Objects 
+	which can be used further for searching or performing operations on the String
+	
+Q.no.2
+Ans.2:  Unlike any other String , raw string treat "\" backslash as a Literal String not as 
+	an Escape Character. It makes Regular Expression meaningful and confusion free.
+	Raw String are Helpful when you have to deal with those that contains a lot of 
+	Backslashes.
+	It can be used by typing r or R before Regex Expression.
+
+
+Q.No.3
+Ans.3:  re.search () method returns two values:-
+	
+	1) None ; If regex does not match with the given String
+	2) Match Object which contains the info regarding the matching part of the string.
+
+Q.No.4. 
+Ans.4:  string method of the Object match is used to get the string.
+
+Q.No.5
+Ans.5:  Group 1 will cover Zero
+
+Q.No.6
+And.6:  For using parenthesis and brackets you need to use to use Raw String .
+	While writing the Regex expression you have to backslash \ just before the 
+	Parenthisis and brackets for the pattern that consist 
+
+
+Q.No.7
+Ans.7:  findall() method return a String List. It searches the whole string for matching 
+	with the String from left to right. Whichever part of the String matches the Regex 
+	Expression.
+
+Q.No.8
+And.8:  | Character simply acts as OR between any two REGEX Expression
+
+
+Q.No.9
+Ans.9:  \W stands for the alphanumeric character.
+	\D stands for all the Non-decimal character.
+	\d stands for the decimal characters
+
+		
+Q.No.10
+Ans.10: + Character is used for the follow up of the character and it is also used for the 
+	continuation the occurence  of the precedence of regex expression.
+	* Character is used for the multiple occurence of the precedence of the regex expression
+
+	
+
+Q.No.11
+Ans.11: In Regex Expression {4} and {4,5} , this is used to do indicate the number of 
+	occurence of the precedence of the regex expression.
+	e.g b{4} -abbbbc,acbbbbb etc
+
+Q.No.12
+Ans.12: \ d stands for the decimal character in the regex expression.
+	i.e:- 0-9
+
+	\ w stands for the Alphanumeric  character in the regex expression.
+	i.e.:- 0-9 a-z A-Z
+
+	\ s stands for the WHiteSpace character in the regex expression.
+	i.e:- " "		
+
+Q.No.13 
+Ans.13: \ D stands for the Non-Decimal character in the regex expression.
+       	[^0-9]
+
+	\ W stands for the Non-Alphanumeric character in the regex expression.
+	[^0-9^a-z^A-Z]
+
+	\ S stands for the Non-WHiteSpace character in the regex expression.
+	[^\ ]
+
+Q.No.14
+Ans.14: Sorry sir but i do not know the Answer. Please describe about the question briefly 
+
+Q.No.15
+Ans.15: [a-z 0-9]
+
+Q.No.16 
+Ans.16: For the Case Insensitive to the Letter:- 
+	[a-Z]
+	Or you can use re.IGNORECASE as a Second Argument 
+
+Q.No.17
+Ans.17: . character matches alphanumeric Char, whitespace char , special symbols except 
+	Newline Character
+
+Q.No.18
+Ans.18: sub method of re module will substitute the decimal with X and return the Same string
+
+
+Q.No.19
+Ans.19: re.VERBOSE helps to write the regex Expression more readable by separating their 
+	Logical Parts of the expression and you can add comments as well for your better 
+	understanding.
+	For e.g.:-
+
+	regExpression=re.compile("""
+				    ^(0-9a-Z)	#LOCAL Section
+					@	#Adding Special char
+				     (0-9-a-Z)  #Add Domain Name
+					\.	#Adding Special Symbol
+				     ([a-Z]{2,6})$
+					""",re.VERBOSE)
+
+Q.No.20
+Ans.20: rege=r" ([\d]{1,3},(\d\d\d,)*(\d\d\d))| [\d]{1,3} "
+
+Q.No.21 
+Ans.21: regExpression=r"[A-Z]\w+\sWatanabe"
+
+Q.No.22
+Ans.22: regExpression=r"'[A-Z][a-z]+\s((pets)|(eats)|(throws))\s(\w+)\.'"
+	It will work for those that are given except-'BOB EATS CATS.'
+	I have this query it is given that it should work for 'BOB EATS CATS.'but
+	not for 'ALICE THROWS FOOTBALLS.'. But i think they are more of the same. Please 
+	correct me where I am Wrong.
+ 
+
