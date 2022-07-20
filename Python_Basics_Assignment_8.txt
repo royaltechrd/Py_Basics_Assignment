@@ -1,5 +1,5 @@
 Q.No.1
-Ans.1:  No, PyInputplus
+Ans.1:  No.
 	
 Q.no.2
 Ans.2:  For the ease of use of the module in the program ,we import pyinputplus as pypi
