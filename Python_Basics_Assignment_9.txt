@@ -1,0 +1,38 @@
+Q.No.1
+Ans.1:  Relative path is that Location that is Relative to the Current Directory or Folder.
+	
+Q.no.2
+Ans.2:  The Absolute Path starts with root element or home directory of the path that is 
+	Initialised in the Application to the File SubDirectory that you want to access.
+
+Q.No.3
+Ans.3:  In the OS Module of Python Standard Library, both methods getcwd() and chdir()
+	are available. Method getcwd() returns the path of the Current Working Directory 
+	whilr chdir() returns nothing but change the path of the Working Directory to the 
+	given one.
+  
+Q.No.4
+Ans.4: . is used to refer current Location while .. is used to refer to the Parent Directory. 
+
+Q.No.5
+Ans.5:  spam.txt is the Base Name and c:\bacon\eggs is the Dir Name.
+
+Q.No.6
+And.6:  The three "Mode" Arguments of the Open() Method that can be Passed are :
+	a) "x" Create Mode:- It is used to create a File of the Name that is provided in the
+	   open() Method.'
+	b) "r" Read Mode:- It is used to Read the File.
+	c) "w" Write Mode :- It is used to write the on the File if exist. If the File is not
+	   Exist, then it will create the File and write on it.
+
+Q.No.7
+Ans.7:  If an Existing File is opened in Write Mode, then all the Contents of the File 
+	replaced by the new Data.
+
+Q.No.8
+And.8:  The read() method will return the content of the File as it is. While
+	the readlines() method will return the List containing the content of the file 
+	line by line.
+
+Q.No.9
+Ans.9:  dict Data Structure resemble the Shelf Value .
