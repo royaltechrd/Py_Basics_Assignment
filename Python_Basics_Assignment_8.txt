@@ -1,0 +1,30 @@
+Q.No.1
+Ans.1:  No, PyInputplus
+	
+Q.no.2
+Ans.2:  For the ease of use of the module in the program ,we import pyinputplus as pypi
+
+Q.No.3
+Ans.3:  Via inputInt() Method, User can only enter the Integer Values. And via inputFloat
+	Method you can enter integer and float values only.
+  
+Q.No.4
+Ans.4:  While using inputInt method of Pyinputplus Module, you can set min as "0" and 
+	"less than " = 100 then it will work fine .
+
+Q.No.5
+Ans.5:  A List of Regular Expression is given to Keyword Argument allowRegexs and
+	blockRegexes.
+	
+
+Q.No.6
+And.6:  Limit keyword Argument is used to limit the number of times the input ;user can 
+ 	enter the input.
+	
+	In case of the given example , the user can enter the valid input in atmost the limit 
+	value in this case i.e. 3. If user failed to do so, then it will cause the function 
+	to raise a RetryLimitException
+
+Q.No.7
+Ans.7:  If blank input is entered three times then the argument will cause the function to 
+	set the input as default value if any Default value is given.
