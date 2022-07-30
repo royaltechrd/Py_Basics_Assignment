@@ -1,0 +1,50 @@
+Q.No.1
+Ans.1:  shutil.copy() will copy the content of the source File and paste it to the  
+	Destination File or Directory.
+	While shutil.copytree() will copy the dir, subdir,files of the source dir and paste 
+	it to the Destination Source
+	
+Q.no.2
+Ans.2:  os.rename()
+
+Q.No.3
+Ans.3:  send2trash() method is used to delete the files temporarily i.e, they send those
+	files to Recycle Bin.
+	While Delete function of shutil will permanently delete your Files.
+  
+Q.No.4
+Ans.4:  import zipfile as zf
+	file=zf.Zipfile("filename","mode(w,a,x,r)")
+	It will work same as open function in Filename.
+
+Q.No.5
+Ans.5:  Code:- that search extension(".jpg" or ".pdf") in a search and then copy these files 
+	in a New Folder. 
+
+
+src="H:\\Data Science\\Data Science Docs\\Ineuron DataScience Course Notes and Everything"
+dest="H:\\Data Science\\Data Science Docs\\Ineuron DataScience Course Notes and Everything\\New Folder"
+
+import pathlib
+# For checking whether the file is present already or not
+file=[]
+
+# TO go through in the Directory, we use os.walk method:
+#It will go to  root,each dir , each File present in the given path i.e. src
+
+for (root, dirs, files) in os.walk(src, topdown=True):
+
+    for i in files :
+        if ".pdf" in i or ".jpg" in i :
+            file.append(i)
+            if not i in file:
+                #pathlib.Path() will give the Path and root, i will concatenate in PathFormat
+                
+		filepath=pathlib.Path(root,i)
+                print(str(filepath))
+                
+		# It will copy the file content and paste to the Destination Path.
+                
+		shutil.copy(str(filepath), dest)
+
+
