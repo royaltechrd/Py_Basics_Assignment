@@ -1,0 +1,30 @@
+Q.No.1
+Ans.1:  Advantage of Excel sheets over CSV files are :
+	1. XLS files support adding charts and graphs to the file, whereas CSV files only offer a plain text representation of the data.
+	2. CSV files are simple plain file that is saved with the Extension of .csv format while Excel Files have the formatting tools, 
+	   formulas.
+	3. In data-warehouse, Excel is preferable for detailed standardized schema specification.
+	
+Q.no.2
+Ans.2:  A CSV File that should be a file Object open with write and read method. 
+
+Q.No.3
+Ans.3:  Four modes in which file objects need to be Opened for Reader and writer Objects are :
+	1. Read Only ('r') : Open text file for reading. ...
+	2. Read and Write ('r+'): Open the file for reading and writing. ...
+	3. Write Only ('w') : Open the file for writing. ...
+	4. Write and Read ('w+') : Open the file for reading and writing.
+  
+Q.No.4
+Ans.4: Method writerow and writerows takes List as an Argument.
+
+Q.No.5
+Ans.5:  The delimiter is the character that appears between cells on a row. By default, the delimiter for a CSV file is a comma.
+	The line terminator is the character that comes at the end of a row. By default, the line terminator is a newline. 
+
+Q.No.6
+Ans.6: loads() method takes the Json Data and return in the form of Data Structure.
+
+Q.No.7
+Ans.7: dumps() method takes the Python data structure and returns Json data
+
